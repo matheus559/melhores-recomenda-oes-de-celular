@@ -1,0 +1,28 @@
+
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal:inter;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}   font-family:var(--fonte-principal);
+    font-size: 16px;
+    fontt-weight: 400;
+    
+.container{
+    height:100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+   
+}
+
+.container-botao{
+    background-color:var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;}
